@@ -1,0 +1,180 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #333;
+  transition: all 0.3s ease;
+}
+
+header nav a:hover {
+  color: #0077b6;
+  border-bottom: 2px solid #0077b6;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.about img {
+  width: 250px;
+  height: auto;
+  margin-right: 50px;
+}
+
+.about p {
+  flex: 1;
+}
+
+/* Skills Section */
+.skills {
+  margin-bottom: 50px;
+}
+
+.skills h2 {
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills li {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.skills li span {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Experience Section */
+.experience {
+  margin-bottom: 50px;
+}
+
+.experience .job {
+  margin-bottom: 40px;
+}
+
+.experience h2 {
+  margin-bottom: 20px;
+}
+
+.experience h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.experience p {
+  margin-bottom: 10px;
+}
+
+.experience ul {
+  margin-bottom: 10px;
+}
+
+.experience ul li {
+  margin-bottom: 5px;
+}
+
+.experience .job:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Education Section */
+.education {
+  margin-bottom: 50px;
+}
+
+.education h2 {
+  margin-bottom: 20px;
+}
+
+.education h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.education p {
+  margin-bottom: 10px;
+}
+
+.education ul {
+  margin-bottom: 10px;
+}
+
+.educ
